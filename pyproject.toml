@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "clinic"
+version = "0.1.0"
+description = "Create CLIs in Python without the trouble."
+authors = ["Your Name <you@example.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+rich = "^12.5.1"
+pyfiglet = "^0.8.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
